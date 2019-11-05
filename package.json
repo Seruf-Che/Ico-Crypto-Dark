@@ -7,6 +7,8 @@
     "grunt-csso": "^2.2.1",
     "imagemin-jpegtran": "^6.0.0",
     "jquery.counterup": "^2.1.0",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
     "node-static": "^0.7.11"
   },
   "devDependencies": {
