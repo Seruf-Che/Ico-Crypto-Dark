@@ -10,7 +10,8 @@
     "jquery.counterup": "^2.1.0",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
-    "node-static": "^0.7.11"
+    "node-static": "^0.7.11",
+    "tunnel-agent": "^0.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^8.0.0",
