@@ -1,0 +1,92 @@
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 40px;
+}
+
+.profiles--extra-padding {
+  padding: 0 120px;
+}
+
+.profiles__item {
+  width: 160px;
+  text-align: center;
+  transition: @transition;
+
+
+  &:hover .profiles__picture-inner {
+    width: 148px;
+    height: 148px;
+  }
+}
+
+.profiles__picture {
+  position: relative;
+  display: block;
+  margin-bottom: 25px;
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(to top, #2b56f5, #46bdf4);
+  border-radius: 50%;
+  transition: @transition;
+}
+
+.profiles__picture-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 160px;
+  height: 160px;
+  background-color: @color-background-light;
+  border-radius: 50%;
+  transition: @transition;
+}
+
+.profiles__name {
+  display: block;
+  color: @color-heading;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.profiles__position {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: @color-accented;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/*Mixes*/
+
+.profiles__section {
+  margin-top: 60px;
+  margin-bottom: 75px;
+}
+
+@media only screen and @tablet-width {
+    
+  .profiles__item {
+    margin: 0 20px 20px 20px;
+  }
+  
+  .profiles__section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and @mobile-width {
+  
+  .profiles__section {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}

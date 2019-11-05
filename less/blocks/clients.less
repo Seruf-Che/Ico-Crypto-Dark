@@ -1,0 +1,39 @@
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.clients__item {
+  fill: @color-heading;
+  margin: 0 40px;
+  width: 20%;
+  height: 100px;
+}
+
+.clients__item--reduced {
+  width: 14%;
+  height: 60px;
+  margin: 0 5px;
+  margin-bottom: 20px;
+}
+
+
+
+@media only screen and @mobile-width {
+  
+  .clients__item {
+    fill: @color-heading;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: auto;
+  }
+  
+  .clients__item--reduced {
+    width: 33%;
+    height: auto;
+    margin: 0 5px;
+    margin-bottom: 0px;
+  }
+}
