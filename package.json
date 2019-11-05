@@ -4,6 +4,7 @@
   "description": "Seruf's build",
   "main": "index.js",
   "dependencies": {
+    "@hapi/cryptiles": "^4.2.1",
     "braces": "^3.0.2",
     "grunt-csso": "^2.2.1",
     "imagemin-jpegtran": "^6.0.0",
